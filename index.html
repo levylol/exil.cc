@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/assets/ICON.gif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/ICON.gif" type="gif/x-icon">
+    <script src="/assets/mouset.js"></script>
+    <title>exile.cc</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<style>
+    .members {
+        background-color: #00000000; 
+        box-shadow: 0 0px 3px rgb(255, 255, 255);
+        color: white; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 25px; 
+        cursor: pointer; 
+        font-size: 16px; 
+        margin-left: -1012px;
+        margin-top: 600px;
+        text-decoration: none; 
+        display: inline-block; 
+        transition: background-color 0.3s; 
+    }
+
+    .members:hover {
+        background-color: #ffffff1f; 
+    }
+
+</style>
+<body>
+    <div class="overlay" id="overlay">
+        <div class="proceed-button" onclick="removeOverlay()">.........</div>
+    </div>
+    <video id="backgroundVideo" loop muted> <source src="/assets/main.mp4" type="video/mp4"></video>
+    <div class="player">
+        <audio id="audio" src="/assets/nice.mp3"></audio>
+        <div class="controls">
+            <button id="prevBtn"><img class="mute" src="/assets/rewind.png"></button>
+            <button id="playPauseBtn"><img class="mute" src="/assets/pause.png"></button>
+            <button id="nextBtn"><img class="mute" src="/assets/fast-forward.png"></button>
+        </div>
+        <div class="progress-container" id="progressContainer">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="time">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+    <header>
+        <div class="logo">
+            <a href="https://discord.gg/uBqdu7B7Bt" target="_blank" rel="noopener noreferrer"><img class="sylum" src="/Users/gameg/Downloads/new main/assets/ICON.gif"></a>
+        </div>
+
+    </header>
+    <div class="title">
+        <p></p>
+    </div>
+    <div>
+    <a href="https://exil.cc/members" class="members">members</a>
+    </div>
+    <div>
+    <a href="https://discord.gg/uBqdu7B7Bt" class="discord">discord</a>
+    </div>
+    <script>
+        
+        function playBackgroundVideo() {
+                  var video = document.getElementById('backgroundVideo');
+                  video.play();
+                  
+              }
+      
+              function playAudio() {
+                  var audio = document.getElementById('levyAudio');
+                  audio.volume = 0.9;
+                  audio.play();
+              }
+
+              function toggleMute() {
+                  var audio = document.getElementById('levyAudio');
+                  audio.muted = !audio.muted;
+              }
+      
+              function removeOverlay() {
+                  var overlay = document.getElementById('overlay');
+                  overlay.style.display = 'none';
+                  playBackgroundVideo();
+                  playAudio();
+                  typeText();
+              }
+      
+      </script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+@font-face {
+    font-family: "Main";
+    src: url("/Users/gameg/Downloads/new main/assets/MC.otf");
+}
+
+@font-face {
+    font-family: "Other";
+    src: url("/assets/MC.TTF");
+}
+
+
+
+body {
+    background-image: url('/assets/cuts.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(7px);
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  }
+  
+  .proceed-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1000px;
+    color: rgba(255, 255, 255, 0);
+    position: fixed;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  }
+  
+  .proceed-button:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0);
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  }
+  
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-ser-select: none;
+       user-select: none;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    margin: 0;
+}
+
+.player {
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin-left: 790px;
+    margin-top: 830px;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    margin-top: 3px;
+}
+
+.progress-container {
+    background: #66666600;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background: #ffffff;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 550px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 90px;
+    box-shadow: 0 0px 3px rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 20px;
+    left: 764px;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;SS
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.LINE {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.LINE2 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.links {
+    color: #ffffffc4;
+    margin-right: 1100px;
+}
+
+
+.mute {
+    width: 25px;
+    height: 25px;
+    margin-top: -900px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.041);
+}
+
+.logo img {
+    margin-top: 40px;
+    margin-left: 390px;
+    width: 160px;
+    height: 100px;
+    -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.title {
+    font-family: Main;
+    flex-grow: 1;
+    text-align: center;
+    color: #ffffffc4;
+    font-size: 60px;
+    margin-top: -300px;
+    left: -240px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title p {
+    font-family: Main;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.links a {
+    font-family: Main;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.glowing-text, .changing-text {
+    font-size: 100px;
+    color: rgb(162, 0, 255);
+    text-align: center;
+    animation: glow 1.5s infinite alternate;
+    margin-top: -5px;
+}
+
+.glowing-text {
+    font-family: 'HelpMe', sans-serif;
+}
+
+.changing-text {
+    font-family: 'Drama', sans-serif;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+
+.menu1 {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    z-index: 1000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu2 {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    left: px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    right: -13px;
+    z-index: 1000;
+    font-family: Main;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown.show {
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.discord {
+    background-color: #00000000; 
+    box-shadow: 0 0px 3px rgb(255, 255, 255);
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-left: -1004px;
+    margin-top: 500px;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s; 
+}
+
+.discord:hover {
+    background-color: #ffffff1f; 
+}
+
