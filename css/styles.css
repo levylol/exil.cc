@@ -93,6 +93,12 @@ body {
     background-color: #000000;
     color: white;
     margin: 0;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .player {
@@ -103,10 +109,22 @@ body {
     width: 300px;
     margin-left: 790px;
     margin-top: 830px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .controls {
     margin-bottom: 15px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 button {
@@ -117,6 +135,12 @@ button {
     cursor: pointer;
     margin: 0 10px;
     margin-top: 3px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .progress-container {
@@ -133,10 +157,22 @@ button {
     height: 100%;
     width: 0;
     border-radius: 5px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .time {
     font-size: 14px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 header {
@@ -200,6 +236,12 @@ header {
 .links {
     color: #ffffffc4;
     margin-right: 1100px;
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 
@@ -209,6 +251,12 @@ header {
     margin-top: -900px;
     margin-left: 5px;
     color: rgba(255, 255, 255, 0.041);
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .logo img {
@@ -368,9 +416,21 @@ header {
     text-decoration: none; 
     display: inline-block; 
     transition: background-color 0.3s; 
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
 .discord:hover {
     background-color: #ffffff1f; 
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
 }
 
